@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dracula_primary_dark"
+    tools:context=".SettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingTop="25dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="25dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="風格設定"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <RadioGroup
+            android:id="@+id/radios"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="right"
+            android:inputType="text"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/common_google_signin_btn_text_dark_default" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:paddingLeft="25dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="?attr/colorPrimary" />
+
+                <RadioButton
+                    android:id="@+id/first2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:button="@null"
+                    android:drawableRight="@android:drawable/btn_radio"
+                    android:drawablePadding="30dp"
+                    android:gravity="right"
+                    android:textColor="#FFFFFF"
+                    android:text="Primary"
+                    android:onClick="OnRadioClick"
+                    android:textSize="20dip" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimaryDark" />
+
+                <RadioButton
+                    android:id="@+id/first3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:button="@null"
+                    android:drawableRight="@android:drawable/btn_radio"
+                    android:drawablePadding="30dp"
+                    android:gravity="right"
+                    android:textColor="#FFFFFF"
+                    android:onClick="OnRadioClick"
+                    android:text="PrimaryDark"
+                    android:textSize="20dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/buttonWarning" />
+
+                <RadioButton
+                    android:id="@+id/first4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:button="@null"
+                    android:drawableRight="@android:drawable/btn_radio"
+                    android:drawablePadding="30dp"
+                    android:gravity="right"
+                    android:text="Warning"
+                    android:onClick="OnRadioClick"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/buttonSuccess" />
+
+                <RadioButton
+                    android:id="@+id/first5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:button="@null"
+                    android:drawableRight="@android:drawable/btn_radio"
+                    android:drawablePadding="30dp"
+                    android:gravity="right"
+                    android:text="Success"
+                    android:textColor="#FFFFFF"
+                    android:onClick="OnRadioClick"
+                    android:textSize="20dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/first6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:button="@null"
+                    android:drawableRight="@android:drawable/btn_radio"
+                    android:drawablePadding="30dp"
+                    android:gravity="right"
+                    android:text="Accent"
+                    android:textColor="#FFFFFF"
+                    android:onClick="OnRadioClick"
+                    android:textSize="20dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/buttonInfo" />
+
+                <RadioButton
+                    android:id="@+id/first7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:button="@null"
+                    android:drawableRight="@android:drawable/btn_radio"
+                    android:drawablePadding="30dp"
+                    android:gravity="right"
+                    android:text="Info"
+                    android:textColor="#FFFFFF"
+                    android:onClick="OnRadioClick"
+                    android:textSize="20dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/dracula_bottom_toolbar_apply_text" />
+
+                <RadioButton
+                    android:id="@+id/first8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:button="@null"
+                    android:drawableRight="@android:drawable/btn_radio"
+                    android:drawablePadding="30dp"
+                    android:gravity="right"
+                    android:textColor="#FFFFFF"
+                    android:text="Dracula"
+                    android:onClick="OnRadioClick"
+                    android:textSize="20dip" />
+            </LinearLayout>
+        </RadioGroup>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

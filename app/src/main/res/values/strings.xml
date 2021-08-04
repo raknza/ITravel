@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ITravel</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ITravel</string>
+    <string name="nav_header_subtitle">打造屬於你的旅遊規劃</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">設定</string>
+
+    <string name="menu_home">旅遊列表</string>
+    <string name="menu_gallery">過往紀錄</string>
+    <string name="menu_slideshow">收藏地點</string>
+    <string name="menu_map">地點探索</string>
+    <string name="home_second">Home Second</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="place_type">
+        <item>restaurant</item>
+        <item>food</item>
+        <item>bar</item>
+        <item>cafe</item>
+        <item>store</item>
+        <item>lodging</item>
+        <item>parking</item>
+        <item>train_station</item>
+        <item>fire_station</item>
+        <item>subway_station</item>
+        <item>department_store</item>
+        <item>home_goods_store</item>
+        <item>point_of_interest</item>
+    </string-array>
+    <string name="title_activity_trip_create">trip_create</string>
+
+    <string name="error_gif">x or y bound size should be at least %1$dpx and file size should be no more than %2$sM</string>
+
+</resources>

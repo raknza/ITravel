@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:id="@+id/date_btn"
+    style="@style/Button.Primary"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0"
+    android:text="第1天\n 2020.05.12"
+    android:tag="new"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

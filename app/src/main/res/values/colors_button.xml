@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="buttonWarning">#f0ad4e</color>
+    <color name="buttonPrimary">#337ab7</color>
+    <color name="buttonDanger">#AFB42B</color>
+    <color name="buttonInfo">#AFB42B</color>
+    <color name="buttonSuccess">#5cb85c</color>
+    <color name="buttonDefault">#AFB42B</color>
+</resources>
